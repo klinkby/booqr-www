@@ -1,0 +1,44 @@
+{{- $site := .Site -}}
+{{- $title := $site.Title -}}
+{{- if not .IsHome -}}
+  {{- $title = printf "%s · %s" .Title $site.Title -}}
+{{- end -}}
+{{- $description := .Description -}}
+
+{{- /* The whole stylesheet is inlined below (it is only a few KB) so no
+       render-blocking CSS request is needed. It is minified and fingerprinted
+       here so its SHA-256 can go into the CSP style-src — keeping style-src
+       strict without 'unsafe-inline'. */ -}}
+{{- $styleSrc := "'self'" -}}
+{{- $css := "" -}}
+{{- with resources.Get "css/main.css" -}}
+  {{- $css = . | minify | fingerprint "sha256" -}}
+  {{- $styleSrc = printf "'%s'" $css.Data.Integrity -}}
+{{- end -}}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'none'; style-src {{ $styleSrc }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+{{- if .Site.Params.noindex }}
+<meta name="robots" content="noindex, nofollow">
+{{- end }}
+
+<title>{{ $title }}</title>
+{{- with $description }}
+<meta name="description" content="{{ . }}">
+{{- end }}
+<link rel="canonical" href="{{ .Permalink }}">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ $title }}">
+{{- with $description }}
+<meta property="og:description" content="{{ . }}">
+{{- end }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ $site.Title }}">
+<meta property="og:locale" content="da_DK">
+
+{{- with $css }}
+<style>{{ .Content | safeCSS }}</style>
+{{- end }}

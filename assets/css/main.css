@@ -1,0 +1,73 @@
+/* booqr.dk — minimal placeholder design system.
+   System fonts only, no third-party requests (CSP is default-src 'self'). */
+
+:root {
+  --bg: #0f1220;
+  --surface: #171b2e;
+  --ink: #f4f5fb;
+  --muted: #a7add0;
+  --brand: #ffd166;
+  --line: #2a3050;
+
+  --shell: 42rem;
+
+  --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(120% 120% at 50% 0%, var(--surface), var(--bg));
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  line-height: 1.65;
+}
+
+.shell {
+  width: min(100% - 2.5rem, var(--shell));
+  margin-inline: auto;
+  text-align: center;
+  padding-block: 3rem;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 0 1.25rem;
+  padding: 0.35em 0.9em;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--brand);
+}
+
+h1 {
+  margin: 0 0 0.5em;
+  font-size: clamp(1.9rem, 1.4rem + 2.4vw, 3.2rem);
+  line-height: 1.15;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.lead {
+  margin: 0 auto 1em;
+  max-width: 32rem;
+  color: var(--muted);
+  font-size: 1.15em;
+  text-wrap: balance;
+}
+
+.prose {
+  color: var(--muted);
+}
+
+.prose p { margin: 0; }

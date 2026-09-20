@@ -1,0 +1,14 @@
+{{- define "main" }}
+<section class="hero">
+  <div class="shell">
+    <p class="badge" aria-hidden="true">🚧 Under opbygning</p>
+    <h1>{{ .Params.hero_title | default .Title }}</h1>
+    {{- with .Params.hero_lead }}
+    <p class="lead">{{ . }}</p>
+    {{- end }}
+    {{- with .Content }}
+    <div class="prose">{{ . }}</div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
