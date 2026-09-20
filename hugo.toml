@@ -1,0 +1,21 @@
+baseURL = "https://www.booqr.dk/"
+locale = "da-dk"
+defaultContentLanguage = "da"
+title = "booqr"
+
+# We author every template ourselves under layouts/ — no external theme.
+# No RSS/taxonomies are part of this one-page site, so they are switched off
+# to keep the build output lean and warning-free.
+disableKinds = ["RSS", "taxonomy", "term", "sitemap"]
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Raw/unsafe HTML in Markdown stays disabled — use shortcodes instead.
+      unsafe = false
+
+[params]
+  # The site is still under construction — keep it out of search results
+  # until there is real content. Flip to false when launching for real.
+  noindex = true
