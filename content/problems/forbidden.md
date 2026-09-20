@@ -1,5 +1,6 @@
 ---
-title: "Access to this resource is forbidden"
+title: "Ingen adgang til ressourcen"
+code: "forbidden"
 status: 403
 description: "Du har ikke adgang til ressourcen. Se hvad der kan udløse fejlen, og hvad du kan gøre."
 draft: false

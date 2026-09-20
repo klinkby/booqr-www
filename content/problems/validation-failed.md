@@ -1,5 +1,6 @@
 ---
-title: "Request validation failed"
+title: "Validering mislykkedes"
+code: "validation-failed"
 status: 400
 description: "Indtastningen blev afvist. Se hvad der kan udløse fejlen, og hvordan du retter den."
 draft: false
