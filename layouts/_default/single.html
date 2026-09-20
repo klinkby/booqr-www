@@ -1,0 +1,12 @@
+{{- define "main" }}
+<article class="doc">
+  <div class="shell">
+    <p class="badge">Fejl · HTTP {{ .Params.status }}</p>
+    <h1>{{ .Title }}</h1>
+    {{- with .Content }}
+    <div class="prose">{{ . }}</div>
+    {{- end }}
+    <p class="back"><a href="{{ "/problems/" | relLangURL }}">← Alle fejltyper</a></p>
+  </div>
+</article>
+{{- end }}
