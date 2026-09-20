@@ -1,5 +1,6 @@
 ---
-title: "Tenant mismatch"
+title: "Forkert virksomhed"
+code: "tenant-mismatch"
 status: 403
 description: "Din session hører til en anden virksomhed end adressen. Se hvad der kan udløse fejlen, og hvordan du kommer videre."
 draft: false

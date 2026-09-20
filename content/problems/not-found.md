@@ -1,5 +1,6 @@
 ---
-title: "Resource not found"
+title: "Ressource ikke fundet"
+code: "not-found"
 status: 404
 description: "Ressourcen kunne ikke findes. Se hvad der kan udløse fejlen, og hvordan du kommer videre."
 draft: false

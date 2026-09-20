@@ -119,3 +119,23 @@ h1 {
   font-weight: 600;
   color: var(--muted);
 }
+
+/* The RFC 7807 problem-type code (the slug from the type URI), shown
+   verbatim as a monospace code token so it can be matched to an API response. */
+.type-code {
+  margin: 0.35rem 0 0;
+}
+
+code.type-code,
+.type-code code {
+  display: inline-block;
+  padding: 0.15em 0.55em;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: var(--bg);
+  color: var(--muted);
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+}
+
+.problem-list code.type-code { margin-right: 0.15rem; }

@@ -1,5 +1,6 @@
 ---
-title: "Resource conflict"
+title: "Ressourcekonflikt"
+code: "conflict"
 status: 409
 description: "Handlingen er i konflikt med systemets tilstand. Se hvad der kan udløse fejlen, og hvordan du kommer videre."
 draft: false

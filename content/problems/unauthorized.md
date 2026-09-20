@@ -1,5 +1,6 @@
 ---
-title: "Authentication failed"
+title: "Godkendelse mislykkedes"
+code: "unauthorized"
 status: 401
 description: "Godkendelsen mislykkedes. Se hvad der kan udløse fejlen, og hvordan du logger ind igen."
 draft: false

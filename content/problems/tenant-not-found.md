@@ -1,5 +1,6 @@
 ---
-title: "Tenant not found"
+title: "Virksomhed ikke fundet"
+code: "tenant-not-found"
 status: 404
 description: "Adressen peger ikke på en kendt virksomhed. Se hvad der kan udløse fejlen, og hvordan du kommer videre."
 draft: false

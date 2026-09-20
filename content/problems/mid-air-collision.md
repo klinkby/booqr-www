@@ -1,5 +1,6 @@
 ---
-title: "State changed during operation"
+title: "Tilstanden ændrede sig undervejs"
+code: "mid-air-collision"
 status: 412
 description: "Ressourcen blev ændret imens du arbejdede. Se hvad der kan udløse fejlen, og hvordan du kommer videre."
 draft: false
