@@ -1,6 +1,9 @@
 {{- $site := .Site -}}
 {{- $title := $site.Title -}}
-{{- if not .IsHome -}}
+{{- if eq .Kind "404" -}}
+  {{- /* Hugo's built-in 404 title is English; keep the tab Danish. */ -}}
+  {{- $title = printf "Ups — siden findes ikke · %s" $site.Title -}}
+{{- else if not .IsHome -}}
   {{- $title = printf "%s · %s" .Title $site.Title -}}
 {{- end -}}
 {{- $description := .Description -}}
