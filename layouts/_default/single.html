@@ -1,8 +1,10 @@
 {{- define "main" }}
 <article class="doc">
   <div class="shell">
-    <p class="badge">Fejl · HTTP {{ .Params.status }}</p>
-    <h1>{{ .Title }}</h1>
+    <header class="doc-head">
+      <p class="badge">Fejl</p>
+      <h1>{{ .Title }}</h1>
+    </header>
     {{- with .Params.code }}
     <p class="type-code"><code>{{ . }}</code></p>
     {{- end }}

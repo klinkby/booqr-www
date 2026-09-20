@@ -95,7 +95,8 @@ h1 {
   font-size: 0.95rem;
 }
 
-.doc a { color: var(--brand); }
+.doc a,
+.hero a { color: var(--brand); }
 
 .problem-list {
   list-style: none;
@@ -113,12 +114,6 @@ h1 {
 }
 
 .problem-list li:last-child { border-bottom: 1px solid var(--line); }
-
-.problem-list .status {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--muted);
-}
 
 /* The RFC 7807 problem-type code (the slug from the type URI), shown
    verbatim as a monospace code token so it can be matched to an API response. */
