@@ -71,3 +71,51 @@ h1 {
 }
 
 .prose p { margin: 0; }
+
+/* Content pages (problem/error explanations) — left-aligned, readable.
+   The .doc wrapper opts a page out of the centered hero layout. */
+.doc .shell {
+  text-align: left;
+  max-width: 44rem;
+}
+
+.doc .prose { color: var(--ink); }
+
+.doc .prose h2 {
+  margin: 2rem 0 0.4em;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.doc .prose p { margin: 0 0 1rem; }
+
+.back {
+  margin-top: 2.5rem;
+  font-size: 0.95rem;
+}
+
+.doc a { color: var(--brand); }
+
+.problem-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+.problem-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.75rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.problem-list li:last-child { border-bottom: 1px solid var(--line); }
+
+.problem-list .status {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+}

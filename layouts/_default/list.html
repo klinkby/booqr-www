@@ -1,0 +1,21 @@
+{{- define "main" }}
+<section class="doc">
+  <div class="shell">
+    <p class="badge" aria-hidden="true">📄 Fejltyper</p>
+    <h1>{{ .Title }}</h1>
+    {{- with .Content }}
+    <div class="prose">{{ . }}</div>
+    {{- end }}
+    {{- with .Pages }}
+    <ul class="problem-list">
+      {{- range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="status">HTTP {{ .Params.status }}</span>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
