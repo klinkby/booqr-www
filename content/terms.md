@@ -11,7 +11,7 @@ Disse vilkår gælder for alle, der bruger booqr — både virksomheder, der til
 ## 1. Definitioner
 
 **booqr**, **vi** og **os**
-: Den virksomhed, der driver platformen.
+: Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, som driver platformen.
 
 **Platformen**
 : Hjemmesiden booqr.dk, booqrs apps, API og øvrige tjenester.
@@ -53,7 +53,7 @@ En booking er en aftale mellem dig og kunden. booqr stiller alene den tekniske p
 
 ### 2.4 Persondata
 
-Du er **dataansvarlig** for de personoplysninger om dine kunder og medarbejdere, som behandles via platformen. booqr er **databehandler** og behandler alene oplysningerne efter din dokumenterede instruks, som disse vilkår og databehandleraftalen udgør. Det er dit ansvar at have et lovligt grundlag for behandlingen og at oplyse dine kunder om den.
+Du er **dataansvarlig** for de personoplysninger om dine kunder og medarbejdere, som behandles via platformen. booqr er **databehandler** og behandler alene oplysningerne efter din dokumenterede instruks, som disse vilkår og [databehandleraftalen](/data-processing/) udgør. Databehandleraftalen er en del af aftalen mellem dig og booqr. Det er dit ansvar at have et lovligt grundlag for behandlingen og at oplyse dine kunder om den.
 
 Platformen er ikke beregnet til følsomme personoplysninger, fx helbredsoplysninger. Du må ikke indtaste sådanne oplysninger i fritekstfelter, medmindre vi skriftligt har aftalt det.
 
