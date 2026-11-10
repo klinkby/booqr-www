@@ -35,7 +35,7 @@ Oplysningerne bruges til at oprette og drive din konto, gennemføre bookinger, s
 
 ## Sikkerhed og opbevaring
 
-Alle data er krypteret, både når de sendes, og når de opbevares. Data opbevares og behandles udelukkende inden for EU. Vi videregiver kun oplysninger til underleverandører, der hjælper os med at drive platformen, og som er bundet af en databehandleraftale: Hetzner Online GmbH (hosting, Tyskland) og Vercom S.A. (e-mail og sms, Polen). Se den aktuelle liste i [databehandleraftalen](/data-processing/#6-underdatabehandlere).
+Alle data er krypteret, både når de sendes, og når de opbevares. Data opbevares og behandles udelukkende inden for EU. Vi videregiver kun oplysninger til underleverandører, der hjælper os med at drive platformen, og som er bundet af en databehandleraftale: Hetzner Online GmbH (hosting, Tyskland) og Vercom S.A. (e-mail, Polen). Se den aktuelle liste i [databehandleraftalen](/data-processing/#6-underdatabehandlere).
 
 Vi gemmer oplysningerne, så længe kontoen eller aftalen er aktiv. Lukkes den, sletter vi oplysningerne senest 30 dage efter, medmindre lovgivningen kræver, at vi gemmer dem længere — fx gemmer vi regnskabsmateriale i fem år efter bogføringsloven.
 
