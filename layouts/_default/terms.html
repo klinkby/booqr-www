@@ -1,0 +1,21 @@
+{{- define "main" }}
+<article class="doc">
+  <div class="shell">
+    <header class="doc-head">
+      <p class="badge" aria-hidden="true">📜 Vilkår</p>
+      <h1>{{ .Title }}</h1>
+      {{- with .Date }}
+      <p class="meta">Gældende fra <time datetime="{{ .Format "2006-01-02" }}">{{ . | time.Format ":date_long" }}</time></p>
+      {{- end }}
+    </header>
+    {{- with .TableOfContents }}
+    <section class="toc" aria-labelledby="toc-title">
+      <h2 id="toc-title">Indhold</h2>
+      {{ . }}
+    </section>
+    {{- end }}
+    <div class="prose">{{ .Content }}</div>
+    <p class="back"><a href="{{ "/" | relLangURL }}">← Tilbage til forsiden</a></p>
+  </div>
+</article>
+{{- end }}
