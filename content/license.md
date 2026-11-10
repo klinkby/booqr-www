@@ -10,7 +10,7 @@ booqr er skabt af Mads Klinkby. Både bookingtjenesten — indhold, design og na
 
 ## Når du bruger bookingsiden
 
-Brugen af bookingsiden er omfattet af vores [vilkår](/terms/) (kommer snart).
+Brugen af bookingsiden er omfattet af vores [vilkår](/terms/).
 
 ## Koden er open source
 
