@@ -2,16 +2,12 @@
 <article class="doc">
   <div class="shell">
     <header class="doc-head">
-      <p class="badge">Fejl</p>
       <h1>{{ .Title }}</h1>
     </header>
-    {{- with .Params.code }}
-    <p class="type-code"><code>{{ . }}</code></p>
-    {{- end }}
     {{- with .Content }}
     <div class="prose">{{ . }}</div>
     {{- end }}
-    <p class="back"><a href="{{ "/problems/" | relLangURL }}">← Alle fejltyper</a></p>
+    <p class="back"><a href="{{ "/" | relLangURL }}">← Tilbage til forsiden</a></p>
   </div>
 </article>
 {{- end }}
