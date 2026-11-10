@@ -57,7 +57,12 @@ booqr træffer passende tekniske og organisatoriske foranstaltninger efter artik
 
 Den dataansvarlige giver med denne aftale generel tilladelse til, at booqr bruger underdatabehandlere, fx til hosting. booqr pålægger dem de samme databeskyttelsesforpligtelser som i denne aftale og er fuldt ansvarlig for deres behandling.
 
-En liste over aktuelle underdatabehandlere udleveres på anmodning. booqr giver mindst 30 dages varsel, før en underdatabehandler tilføjes eller udskiftes. Den dataansvarlige kan inden da gøre indsigelse og, hvis vi ikke kan blive enige, opsige aftalen uden omkostninger.
+booqr bruger i dag disse underdatabehandlere, som begge behandler data inden for EU:
+
+- **Hetzner Online GmbH**, Tyskland — hosting og opbevaring af data.
+- **Vercom S.A.**, Polen — afsendelse af e-mail og sms, fx bekræftelser og påmindelser.
+
+Listen her er altid den aktuelle. booqr giver mindst 30 dages varsel, før en underdatabehandler tilføjes eller udskiftes. Den dataansvarlige kan inden da gøre indsigelse og, hvis vi ikke kan blive enige, opsige aftalen uden omkostninger.
 
 ## 7. Overførsel til tredjelande
 
