@@ -2,7 +2,8 @@
 title: "Vilkår for brug af booqr"
 description: "Vilkår for udbydere og kunder på booqr: oprettelse, booking, afbestilling og rimelig brug."
 date: 2026-11-10
-layout: "terms"
+layout: "legal"
+badge: "📜 Vilkår"
 draft: false
 ---
 
@@ -113,7 +114,7 @@ Betaling for ydelsen sker til udbyderen efter udbyderens betingelser. Klager ove
 
 ### 3.7 Persondata
 
-Udbyderen er dataansvarlig for de oplysninger, du giver i forbindelse med en booking, og booqr behandler dem på udbyderens vegne. For de oplysninger, vi behandler for at drive din brugerkonto og sikre platformen mod misbrug, er booqr selv dataansvarlig. Du kan til enhver tid få indsigt i, rette eller få slettet dine oplysninger efter reglerne i databeskyttelsesforordningen.
+Udbyderen er dataansvarlig for dine oplysninger, herunder dine bookinger, og booqr behandler dem alene på udbyderens vegne. Ønsker du indsigt, rettelse eller sletning, skal du derfor rette henvendelse til udbyderen. Du kan selv eksportere dine data via platformen. Læs mere i vores [privatlivspolitik](/privacy/).
 
 ### 3.8 Ansvar
 
