@@ -14,6 +14,11 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       # Raw/unsafe HTML in Markdown stays disabled — use shortcodes instead.
       unsafe = false
+  [markup.tableOfContents]
+    # The terms page lists its top-level sections only.
+    startLevel = 2
+    endLevel = 2
+    ordered = false
 
 [params]
   # The site is still under construction — keep it out of search results

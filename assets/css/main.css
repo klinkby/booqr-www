@@ -134,3 +134,39 @@ code.type-code,
 }
 
 .problem-list code.type-code { margin-right: 0.15rem; }
+
+/* Long-form content (terms): sub-headings, lists, definitions, contents. */
+.meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.doc .prose h3 {
+  margin: 1.5rem 0 0.3em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.doc .prose ul,
+.toc ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+
+.doc .prose li { margin-bottom: 0.3rem; }
+
+.doc .prose dt { font-weight: 700; }
+
+.doc .prose dd { margin: 0 0 0.75rem; color: var(--muted); }
+
+.toc {
+  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+.toc h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.toc ul { margin-bottom: 0; }
