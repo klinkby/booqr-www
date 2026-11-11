@@ -12,7 +12,7 @@ Disse vilkår gælder for alle, der bruger booqr — både virksomheder, der til
 ## 1. Definitioner
 
 **booqr**, **vi** og **os**
-: Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, som driver platformen.
+: Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, e-mail [m@booqr.dk](mailto:m@booqr.dk), som driver platformen.
 
 **Platformen**
 : Hjemmesiden booqr.dk, booqrs apps, API og øvrige tjenester.
@@ -145,7 +145,7 @@ Vi kan sætte rimelige grænser for brugen, fx for antallet af anmodninger pr. m
 
 ### 4.3 Sikkerhedsfejl
 
-Finder du en sikkerhedsfejl, så giv os besked og giv os rimelig tid til at rette den, før du fortæller andre om den. Du må ikke udnytte fejlen ud over, hvad der er nødvendigt for at påvise den, eller tilgå, ændre eller slette andres data.
+Finder du en sikkerhedsfejl, så giv os besked på [m@booqr.dk](mailto:m@booqr.dk) og giv os rimelig tid til at rette den, før du fortæller andre om den. Du må ikke udnytte fejlen ud over, hvad der er nødvendigt for at påvise den, eller tilgå, ændre eller slette andres data.
 
 ### 4.4 Konsekvenser
 

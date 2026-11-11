@@ -13,7 +13,7 @@ Denne databehandleraftale er en del af [vilkårene for brug af booqr](/terms/) o
 
 **Den dataansvarlige** er den udbyder, der har oprettet en konto på booqr.
 
-**Databehandleren** er Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S („booqr“).
+**Databehandleren** er Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, e-mail [m@booqr.dk](mailto:m@booqr.dk) („booqr“).
 
 ## 2. Behandlingen
 

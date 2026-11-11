@@ -16,7 +16,7 @@ Ansvaret afhænger af, hvem du er:
 - **Er du udbyder**, er booqr dataansvarlig for oplysningerne om dig og din virksomheds aftale med os, fx kontaktpersoner, abonnement og fakturering.
 - **Er du kunde hos en udbyder**, er det udbyderen, der er dataansvarlig for dine oplysninger, herunder dine bookinger. booqr er databehandler og behandler dem alene efter udbyderens instruks og [databehandleraftalen](/data-processing/).
 
-booqr drives af Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S.
+booqr drives af Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, e-mail [m@booqr.dk](mailto:m@booqr.dk).
 
 ## Hvilke oplysninger behandler vi?
 
@@ -49,7 +49,7 @@ Du har efter databeskyttelsesforordningen ret til:
 - **sletning** — du kan bede den udbyder, du har booket hos, om at slette dine oplysninger (retten til at blive glemt, artikel 17), og
 - **begrænsning** af og **indsigelse** mod behandlingen.
 
-Er du kunde, skal du rette henvendelse til udbyderen, da det er udbyderen, der er dataansvarlig. Henvender du dig til os, sender vi din henvendelse videre. Er du udbyder, kan du kontakte booqr på adressen ovenfor.
+Er du kunde, skal du rette henvendelse til udbyderen, da det er udbyderen, der er dataansvarlig. Henvender du dig til os, sender vi din henvendelse videre. Er du udbyder, kan du kontakte booqr på [m@booqr.dk](mailto:m@booqr.dk).
 
 Er du utilfreds med vores behandling af dine oplysninger, kan du klage til Datatilsynet, [datatilsynet.dk](https://www.datatilsynet.dk/).
 
