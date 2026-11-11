@@ -10,6 +10,7 @@ audiences:
   - "Akupunktur"
   - "Zoneterapi"
   - "Massage"
+  - "Kropsterapi"
   - "Og andre behandlere"
 features:
   - icon: "📅"
