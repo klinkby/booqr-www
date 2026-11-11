@@ -1,0 +1,9 @@
+<ul class="cards">
+  {{- range . }}
+  <li>
+    <span class="icon" aria-hidden="true">{{ .icon }}</span>
+    <h3>{{ .title }}</h3>
+    <p>{{ .text }}</p>
+  </li>
+  {{- end }}
+</ul>

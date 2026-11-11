@@ -1,14 +1,55 @@
 {{- define "main" }}
-<section class="hero">
+{{- $p := .Params }}
+{{- $mailto := printf "mailto:%s?subject=%s" $p.invite_email (replace ($p.invite_subject | urlquery) "+" "%20") }}
+<section class="hero home" aria-labelledby="hero-title">
   <div class="shell">
-    <p class="badge" aria-hidden="true">🚧 Under opbygning</p>
-    <h1>{{ .Params.hero_title | default .Title }}</h1>
-    {{- with .Params.hero_lead }}
+    <p class="brand"><img src="{{ "favicon.svg" | relURL }}" alt="" width="56" height="56">booqr</p>
+    {{- with $p.badge }}
+    <p class="badge">{{ . }}</p>
+    {{- end }}
+    <h1 id="hero-title">{{ $p.hero_title | default .Title }}</h1>
+    {{- with $p.hero_lead }}
     <p class="lead">{{ . }}</p>
     {{- end }}
-    {{- with .Content }}
-    <div class="prose">{{ . }}</div>
+    <p class="actions">
+      <a class="button" href="{{ $mailto }}">Anmod om en invitation</a>
+    </p>
+    <p class="note">Skriv til <a href="{{ $mailto }}">{{ $p.invite_email }}</a></p>
+    {{- with $p.audiences }}
+    <ul class="chips" aria-label="Til behandlere inden for">
+      {{- range . }}
+      <li>{{ . }}</li>
+      {{- end }}
+    </ul>
     {{- end }}
+  </div>
+</section>
+
+{{- with $p.features }}
+<section class="band" aria-labelledby="features-title">
+  <div class="shell wide">
+    <h2 id="features-title">Alt det, din klinik har brug for</h2>
+    {{ partial "cards.html" . }}
+  </div>
+</section>
+{{- end }}
+
+{{- with $p.trust }}
+<section class="band" aria-labelledby="trust-title">
+  <div class="shell wide">
+    <h2 id="trust-title">Hurtig, moderne og sikker</h2>
+    {{ partial "cards.html" . }}
+  </div>
+</section>
+{{- end }}
+
+<section class="band cta" aria-labelledby="cta-title">
+  <div class="shell">
+    <h2 id="cta-title">{{ $p.cta_title }}</h2>
+    <p class="lead">{{ $p.cta_lead }}</p>
+    <p class="actions">
+      <a class="button" href="{{ $mailto }}">Skriv til {{ $p.invite_email }}</a>
+    </p>
   </div>
 </section>
 {{- end }}

@@ -21,6 +21,19 @@ enableRobotsTXT = true
     ordered = false
 
 [params]
-  # The site is still under construction — keep it out of search results
-  # until there is real content. Flip to false when launching for real.
-  noindex = true
+  # Set to true to keep the site out of search results (noindex + robots
+  # Disallow), e.g. while a rebuild is under way.
+  noindex = false
+
+[[menus.footer]]
+  name = "Vilkår"
+  pageRef = "/terms"
+  weight = 10
+[[menus.footer]]
+  name = "Privatlivspolitik"
+  pageRef = "/privacy"
+  weight = 20
+[[menus.footer]]
+  name = "Databehandleraftale"
+  pageRef = "/data-processing"
+  weight = 30

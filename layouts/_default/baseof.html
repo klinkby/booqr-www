@@ -7,5 +7,16 @@
 <main id="main-content">
 {{- block "main" . }}{{ end }}
 </main>
+{{- with .Site.Menus.footer }}
+<footer class="site-footer">
+  <nav aria-label="Juridiske sider">
+    <ul>
+      {{- range . }}
+      <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "footer" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+      {{- end }}
+    </ul>
+  </nav>
+</footer>
+{{- end }}
 </body>
 </html>
