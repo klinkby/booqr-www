@@ -116,6 +116,8 @@ Betaling for ydelsen sker til udbyderen efter udbyderens betingelser. Klager ove
 
 Udbyderen er dataansvarlig for dine oplysninger, herunder dine bookinger, og booqr behandler dem alene på udbyderens vegne. Ønsker du indsigt, rettelse eller sletning, skal du derfor rette henvendelse til udbyderen. Du kan selv eksportere dine data via platformen. Læs mere i vores [privatlivspolitik](/privacy/).
 
+Platformen er ikke beregnet til følsomme personoplysninger, fx helbredsoplysninger. Du må ikke indtaste sådanne oplysninger i fritekstfelter, medmindre vi skriftligt har aftalt det.
+
 ### 3.8 Ansvar
 
 booqr er ikke ansvarlig for udbyderens ydelser eller for tab, der skyldes udbyderens forhold. Vores ansvar over for dig som forbruger følger i øvrigt dansk rets almindelige regler. Intet i disse vilkår begrænser de rettigheder, du har som forbruger efter ufravigelig lovgivning.
