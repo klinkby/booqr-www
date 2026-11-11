@@ -3,7 +3,8 @@
 Static marketing site for booqr — a Hugo site deployed to GitHub Pages at
 [www.booqr.dk](https://www.booqr.dk/).
 
-Currently a single "under construction" front page.
+A front page inviting therapists to the closed beta, plus legal pages and
+RFC 7807 problem-type explanations.
 
 ## Commands
 
@@ -30,8 +31,8 @@ Plain CSS only — no SCSS/Dart Sass.
 - **Zero third-party requests.** System fonts, no CDN, no analytics.
   CSP is `default-src 'self'`; the stylesheet is inlined and its SHA-256 goes
   into `style-src`.
-- `params.noindex` keeps the site out of search results while it is under
-  construction — flip it to `false` in `hugo.toml` at launch.
+- `params.noindex = true` in `hugo.toml` keeps the site out of search
+  results (robots meta + `Disallow`).
 
 ## Deploy
 
