@@ -3,6 +3,7 @@
 {{- $mailto := printf "mailto:%s?subject=%s" $p.invite_email (replace ($p.invite_subject | urlquery) "+" "%20") }}
 <section class="hero home" aria-labelledby="hero-title">
   <div class="shell">
+    <p class="brand"><img src="{{ "favicon.svg" | relURL }}" alt="" width="56" height="56">booqr</p>
     {{- with $p.badge }}
     <p class="badge">{{ . }}</p>
     {{- end }}

@@ -41,6 +41,7 @@ Hugo **extended** 0.165+. Own templates under `layouts/` — no external theme.
 | `content/problems/` | RFC 7807 error-type explanations (Danish) |
 | `layouts/` | Own templates (`404.html` is the GitHub Pages 404) |
 | `assets/css/main.css` | Design system, one file |
+| `static/favicon.svg` | Logo/favicon — copy of booqr-app `src/lib/assets/favicon.svg` |
 | `static/CNAME` | Custom domain for GitHub Pages |
 
 ## Deploy
