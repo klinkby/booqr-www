@@ -14,7 +14,7 @@
     <p class="actions">
       <a class="button" href="{{ $mailto }}">Anmod om en invitation</a>
     </p>
-    <p class="note">Skriv til <a href="{{ $mailto }}">{{ $p.invite_email }}</a></p>
+    <p class="note">Skriv til <a href="{{ $mailto }}">{{ $p.invite_email }}</a> · <a href="{{ "price/" | relLangURL }}">Se priser</a></p>
     {{- with $p.audiences }}
     <ul class="chips" aria-label="Til behandlere inden for">
       {{- range . }}

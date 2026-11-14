@@ -1,0 +1,44 @@
+{{- define "main" }}
+{{- $p := .Params }}
+{{- $hp := site.Home.Params }}
+{{- $mailto := printf "mailto:%s?subject=%s" $hp.invite_email (replace ($hp.invite_subject | urlquery) "+" "%20") }}
+<section class="hero home" aria-labelledby="hero-title">
+  <div class="shell">
+    {{- with $p.badge }}
+    <p class="badge" aria-hidden="true">{{ . }}</p>
+    {{- end }}
+    <h1 id="hero-title">{{ $p.hero_title | default .Title }}</h1>
+    {{- with $p.hero_lead }}
+    <p class="lead">{{ . }}</p>
+    {{- end }}
+
+    <section class="plan" aria-labelledby="plan-title">
+      <h2 id="plan-title">{{ $p.plan_title }}</h2>
+      {{- with $p.trial }}
+      <p class="badge">{{ . }}</p>
+      {{- end }}
+      <p class="amount">{{ $p.price }}</p>
+      <p class="per">{{ $p.price_unit }}</p>
+      {{- with $p.includes }}
+      <ul class="checks">
+        {{- range . }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      <p class="actions"><a class="button" href="{{ $mailto }}">Anmod om en invitation</a></p>
+    </section>
+    {{- with $p.example }}
+    <p class="note">{{ . }}</p>
+    {{- end }}
+  </div>
+</section>
+
+<section class="band doc" aria-labelledby="info-title">
+  <div class="shell">
+    <h2 id="info-title">Godt at vide</h2>
+    <div class="prose">{{ .Content }}</div>
+    <p class="back"><a href="{{ "/" | relLangURL }}">← Tilbage til forsiden</a></p>
+  </div>
+</section>
+{{- end }}
