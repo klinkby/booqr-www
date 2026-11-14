@@ -24,7 +24,7 @@ Kategorier af registrerede
 : Den dataansvarliges kunder og medarbejdere.
 
 Typer af personoplysninger
-: Navn, telefonnummer, e-mailadresse, en sikker hash af adgangskoden samt oplysninger om bookinger, fx tid, sted og ydelse. Platformen er ikke beregnet til følsomme personoplysninger, og den dataansvarlige må ikke registrere sådanne oplysninger. Den dataansvarlige er ansvarlig for hjemlen, hvis en booking efter sin art afslører helbredsforhold.
+: Navn, telefonnummer, e-mailadresse, en sikker hash af adgangskoden samt oplysninger om bookinger, fx tid, sted, ydelse og en eventuel besked fra kunden. Platformen er ikke beregnet til følsomme personoplysninger. Den dataansvarlige må ikke registrere sådanne oplysninger, og kunderne må ikke skrive dem i deres besked. Den dataansvarlige er ansvarlig for hjemlen, hvis en booking efter sin art afslører helbredsforhold.
 
 Behandlingens art
 : Indsamling, opbevaring, visning, ændring, afsendelse af e-mails, eksport og sletning.

@@ -22,11 +22,11 @@ booqr drives af Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 Københ
 - telefonnummer,
 - e-mailadresse,
 - en sikker hash af din adgangskode, hvis du har en konto — vi kender aldrig selve adgangskoden, og
-- oplysninger om dine bookinger, fx tid, sted og ydelse.
+- oplysninger om dine bookinger, fx tid, sted, ydelse og en eventuel besked, du skriver til udbyderen.
 
 For udbydere behandler vi desuden virksomhedens navn og CVR-nummer samt oplysninger om abonnement og betaling.
 
-booqr er et bookingsystem og ikke et journalsystem, og vi beder ikke om helbredsoplysninger eller andre følsomme personoplysninger. En booking af en bestemt behandling kan dog efter omstændighederne sige noget om dit helbred. Udbyderen er som dataansvarlig ansvarlig for den behandling.
+booqr er et bookingsystem og ikke et journalsystem, og vi beder ikke om helbredsoplysninger eller andre følsomme personoplysninger. **Skriv derfor ikke sådanne oplysninger i din besked til udbyderen.** En booking af en bestemt behandling kan dog efter omstændighederne sige noget om dit helbred. Udbyderen er som dataansvarlig ansvarlig for den behandling.
 
 ## Formål og retsgrundlag
 

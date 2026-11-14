@@ -56,7 +56,7 @@ Booker du en tid på en kundes vegne, indestår du for, at kunden har bedt om de
 
 Du er **dataansvarlig** for personoplysninger om dine kunder og medarbejdere, og booqr er **databehandler**. [Databehandleraftalen](/data-processing/) er en del af aftalen mellem dig og booqr. Du indestår for, at du har hjemmel til behandlingen og har givet kunderne de oplysninger, databeskyttelsesreglerne kræver.
 
-Platformen er et bookingsystem og ikke et journalsystem. Du må ikke registrere helbredsoplysninger eller andre følsomme personoplysninger på platformen, heller ikke i fritekstfelter eller i navne på ydelser, medmindre vi skriftligt har aftalt det.
+Platformen er et bookingsystem og ikke et journalsystem. Du må ikke registrere helbredsoplysninger eller andre følsomme personoplysninger på platformen, heller ikke i navne på ydelser, medmindre vi skriftligt har aftalt det. Kunder må heller ikke skrive sådanne oplysninger i den besked, de kan sende dig ved booking. Modtager du dem alligevel, er du som dataansvarlig ansvarlig for dem.
 
 ### 2.5 Dine data
 
@@ -123,7 +123,7 @@ Betaling sker til udbyderen. Klager over ydelsen, prisen, refusion eller udbyder
 
 Udbyderen er dataansvarlig for dine oplysninger, herunder dine bookinger, og booqr behandler dem alene på udbyderens vegne. Ønsker du indsigt, rettelse eller sletning, skal du henvende dig til udbyderen. Se [privatlivspolitikken](/privacy/).
 
-Platformen er ikke beregnet til følsomme personoplysninger, fx helbredsoplysninger. Skriv ikke sådanne oplysninger i fritekstfelter.
+**Den besked, du kan skrive til udbyderen, når du booker, må ikke indeholde helbredsoplysninger eller andre følsomme personoplysninger** — heller ikke om andre end dig selv. Platformen er ikke beregnet til sådanne oplysninger. Har du brug for at fortælle udbyderen om dit helbred, skal du gøre det direkte til udbyderen.
 
 ### 3.8 Ansvar
 
