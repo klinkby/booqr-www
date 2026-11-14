@@ -64,7 +64,7 @@ Du ejer de data, du lægger ind på platformen. booqr må opbevare og behandle d
 
 ### 2.6 Betaling
 
-Et betalt abonnement betales forud for hver abonnementsperiode efter den gældende prisliste. Priser er eksklusive moms, medmindre andet er angivet. Prisændringer varsles mindst 30 dage før, de træder i kraft. Ved forsinket betaling påløber renter og gebyrer efter renteloven, og vi kan lukke for adgangen, indtil der er betalt.
+Et betalt abonnement betales forud for hver abonnementsperiode efter den gældende [prisliste](/price/). Priser er eksklusive moms, medmindre andet er angivet. Prisændringer varsles mindst 30 dage før, de træder i kraft. Ved forsinket betaling påløber renter og gebyrer efter renteloven, og vi kan lukke for adgangen, indtil der er betalt.
 
 Forudbetalte beløb refunderes ikke. Opsiger vi aftalen, uden at du har misligholdt den, refunderer vi dog den forudbetalte del af perioden efter ophøret.
 
