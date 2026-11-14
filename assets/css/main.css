@@ -315,3 +315,60 @@ code.type-code,
 
 .site-footer a:hover,
 .site-footer a[aria-current] { color: var(--ink); }
+
+/* Price page — a single plan card. */
+.plan {
+  margin: 2.5rem auto 1rem;
+  max-width: 24rem;
+  padding: 2rem 1.5rem 1.75rem;
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: 0 1rem 3rem var(--glow);
+}
+
+.plan h2 {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.plan .badge { margin: 0; }
+
+.amount {
+  margin: 1rem 0 0;
+  font-size: clamp(2.5rem, 2rem + 2vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.per {
+  margin: 0.25rem 0 1.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.checks {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+  text-align: left;
+}
+
+.checks li { padding-left: 1.5rem; text-indent: -1.5rem; }
+
+.checks li::before {
+  content: "✓" / "";
+  display: inline-block;
+  width: 1.5rem;
+  text-indent: 0;
+  color: var(--brand);
+  font-weight: 700;
+}
+
+.plan .actions { margin: 1.75rem 0 0; }
