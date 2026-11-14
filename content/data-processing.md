@@ -60,7 +60,7 @@ Den dataansvarlige giver booqr generel tilladelse til at bruge underdatabehandle
 
 booqr bruger disse underdatabehandlere:
 
-- **Hetzner Online GmbH**, Tyskland — hosting og opbevaring af data.
+- **Hetzner Online GmbH**, Tyskland — hosting og opbevaring af data i datacenter i Finland.
 - **Vercom S.A.**, Polen — afsendelse af e-mail, fx bekræftelser og påmindelser.
 
 booqr varsler den dataansvarlige mindst 30 dage, før en underdatabehandler tilføjes eller udskiftes. Den dataansvarlige kan inden da gøre sagligt begrundet indsigelse. Kan parterne ikke blive enige, kan den dataansvarlige opsige aftalen uden omkostninger, hvilket er den dataansvarliges eneste beføjelse i den anledning.

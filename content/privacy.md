@@ -11,7 +11,7 @@ Vi behandler så få personoplysninger som muligt og kun for at levere booqr. He
 
 ## Hvem er ansvarlig?
 
-- **Er du kunde hos en udbyder**, er udbyderen dataansvarlig for dine oplysninger, herunder din konto og dine bookinger. booqr er databehandler og behandler oplysningerne alene efter udbyderens instruks og [databehandleraftalen](/data-processing/). Det er udbyderen, der fastlægger formål og retsgrundlag, og udbyderen, du skal kontakte om dine oplysninger.
+- **Er du kunde hos en udbyder**, er udbyderen dataansvarlig for dine oplysninger, herunder din konto og dine bookinger. En konto gælder kun hos den enkelte udbyder, og booqr deler ikke oplysninger på tværs af udbydere. booqr er databehandler og behandler oplysningerne alene efter udbyderens instruks og [databehandleraftalen](/data-processing/). Det er udbyderen, der fastlægger formål og retsgrundlag, og udbyderen, du skal kontakte om dine oplysninger.
 - **Er du udbyder, eller skriver du til os**, er booqr dataansvarlig for oplysningerne om dig som kontaktperson, om aftalen med os og om din henvendelse. For oplysninger om udbyderens medarbejdere er udbyderen dataansvarlig.
 
 booqr drives af Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, e-mail [m@booqr.dk](mailto:m@booqr.dk).
@@ -42,7 +42,7 @@ Oplysningerne er nødvendige for at oprette en konto. Vi bruger ikke oplysninger
 
 ## Modtagere, sikkerhed og opbevaring
 
-Oplysningerne overlades kun til vores databehandlere: Hetzner Online GmbH (hosting, Tyskland) og Vercom S.A. (e-mail, Polen). Alle data er krypteret, både når de sendes, og når de opbevares, og de opbevares og behandles udelukkende inden for EU/EØS.
+Oplysningerne overlades kun til vores databehandlere: Hetzner Online GmbH (tysk selskab, hosting i datacenter i Finland) og Vercom S.A. (e-mail, Polen). Alle data er krypteret, både når de sendes, og når de opbevares, og de opbevares og behandles udelukkende inden for EU/EØS.
 
 Oplysningerne gemmes, så længe kontoen er aktiv, og slettes senest 30 dage efter, at den er lukket. Regnskabsmateriale gemmes i fem år efter bogføringsloven, og oplysninger, der er nødvendige for et retskrav, gemmes, indtil kravet er afsluttet. Henvendelser slettes, når de er færdigbehandlet.
 

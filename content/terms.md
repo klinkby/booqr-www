@@ -103,7 +103,7 @@ Bookingen er en aftale mellem dig og udbyderen. booqr er ikke part i aftalen. Fo
 
 ### 3.3 Afbestilling og ændring
 
-Du kan afbestille eller flytte din booking via platformen eller linket i bekræftelsen **senest kl. 23.59 dagen før** den bookede tid. En tid kl. 10.00 tirsdag kan altså afbestilles frem til mandag kl. 23.59.
+Du kan afbestille eller flytte din booking via platformen eller linket i bekræftelsen **senest 24 timer før** den bookede tids start. En tid tirsdag kl. 10.00 kan altså afbestilles frem til mandag kl. 10.00.
 
 Efter fristen skal du kontakte udbyderen direkte, og udbyderen kan efter sine egne betingelser kræve betaling for tiden.
 
