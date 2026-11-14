@@ -13,6 +13,7 @@ Vi behandler så få personoplysninger som muligt og kun for at levere booqr. He
 
 - **Er du kunde hos en udbyder**, er udbyderen dataansvarlig for dine oplysninger, herunder din konto og dine bookinger. En konto gælder kun hos den enkelte udbyder, og booqr deler ikke oplysninger på tværs af udbydere. booqr er databehandler og behandler oplysningerne alene efter udbyderens instruks og [databehandleraftalen](/data-processing/). Det er udbyderen, der fastlægger formål og retsgrundlag, og udbyderen, du skal kontakte om dine oplysninger.
 - **Er du udbyder, eller skriver du til os**, er booqr dataansvarlig for oplysningerne om dig som kontaktperson, om aftalen med os og om din henvendelse. For oplysninger om udbyderens medarbejdere er udbyderen dataansvarlig.
+- **For alle, der besøger platformen**, er booqr dataansvarlig for de tekniske logs, der bruges til drift og sikkerhed.
 
 booqr drives af Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 København S, e-mail [m@booqr.dk](mailto:m@booqr.dk).
 
@@ -23,6 +24,8 @@ booqr drives af Mads Klinkby, CVR-nr. 30632885, Islands Brygge 106, 2300 Københ
 - e-mailadresse,
 - en sikker hash af din adgangskode, hvis du har en konto — vi kender aldrig selve adgangskoden, og
 - oplysninger om dine bookinger, fx tid, sted, ydelse og en eventuel besked, du skriver til udbyderen.
+
+Når du bruger platformen, registreres din IP-adresse og tidspunktet i serverens logs.
 
 For udbydere behandler vi desuden virksomhedens navn og CVR-nummer samt oplysninger om abonnement og betaling.
 
@@ -36,7 +39,7 @@ Som dataansvarlig behandler booqr oplysninger om udbydere og henvendelser for at
 
 - indgå og opfylde aftalen med udbyderen (databeskyttelsesforordningens artikel 6, stk. 1, litra b),
 - overholde bogføringsloven (litra c), og
-- besvare henvendelser, beskytte platformen mod misbrug og varetage retskrav (litra f).
+- besvare henvendelser, føre tekniske logs for at drive platformen, finde fejl og beskytte den mod misbrug samt varetage retskrav (litra f).
 
 Oplysningerne er nødvendige for at oprette en konto. Vi bruger ikke oplysninger til markedsføring eller profilering og sælger dem ikke.
 
@@ -44,7 +47,7 @@ Oplysningerne er nødvendige for at oprette en konto. Vi bruger ikke oplysninger
 
 Oplysningerne overlades kun til vores databehandlere: Hetzner Online GmbH (tysk selskab, hosting i datacenter i Finland) og Vercom S.A. (e-mail, Polen). Alle data er krypteret, både når de sendes, og når de opbevares, og de opbevares og behandles udelukkende inden for EU/EØS.
 
-Oplysningerne gemmes, så længe kontoen er aktiv, og slettes senest 30 dage efter, at den er lukket. Regnskabsmateriale gemmes i fem år efter bogføringsloven, og oplysninger, der er nødvendige for et retskrav, gemmes, indtil kravet er afsluttet. Henvendelser slettes, når de er færdigbehandlet.
+Oplysningerne gemmes, så længe kontoen er aktiv, og slettes senest 30 dage efter, at den er lukket. Regnskabsmateriale gemmes i fem år efter bogføringsloven, og oplysninger, der er nødvendige for et retskrav, gemmes, indtil kravet er afsluttet. Henvendelser slettes, når de er færdigbehandlet. Tekniske logs har en fast, begrænset størrelse og overskrives løbende, så de ældste poster slettes automatisk.
 
 ## Dine rettigheder
 
