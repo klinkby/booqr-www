@@ -68,6 +68,8 @@ Et betalt abonnement betales forud for hver abonnementsperiode efter den gælden
 
 Prisen afhænger af antallet af brugere med rollen administrator eller medarbejder. Ændringer i antallet skal meddeles os skriftligt, fx på e-mail til [m@booqr.dk](mailto:m@booqr.dk), og gælder fra den følgende abonnementsperiode.
 
+Nye udbydere får den første måned efter oprettelsen gratis (prøvemåned). Tilbuddet gælder kun udbydere, der ikke tidligere har haft et abonnement på booqr, og vi kan afvise en ny prøvemåned, fx hvis virksomheden eller CVR-nummeret har haft en før. Opsiger du ikke abonnementet i prøvemåneden, fortsætter det som et betalt abonnement. Den første faktura sendes den første hverdag i måneden, efter at prøvemåneden er udløbet, og dagene indtil da er gratis.
+
 Forudbetalte beløb refunderes ikke. Opsiger vi aftalen, uden at du har misligholdt den, refunderer vi dog den forudbetalte del af perioden efter ophøret.
 
 ### 2.7 Opsigelse

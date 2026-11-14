@@ -20,7 +20,7 @@ draft: false
 
 ### Gratis første måned
 
-Som ny udbyder får du den første måned gratis. Tilbuddet gælder kun udbydere, der ikke har haft et abonnement på booqr før.
+Som ny udbyder får du den første måned gratis. Tilbuddet gælder kun udbydere, der ikke har haft et abonnement på booqr før. Opsiger du ikke i prøvemåneden, fortsætter abonnementet, og den første faktura kommer den første hverdag i måneden derefter.
 
 ### Betaling forud
 
@@ -28,7 +28,7 @@ Abonnementet betales forud. Fakturaen sendes den første hverdag i måneden, og 
 
 ### Ændringer og opsigelse
 
-Der er ingen binding. Vil du ændre antallet af administratorer og medarbejdere eller opsige abonnementet, så giv os skriftlig besked på [m@booqr.dk](mailto:m@booqr.dk). Ændringen gælder fra den følgende måned. Beløb, der allerede er faktureret, refunderes ikke.
+Der er ingen binding. Vil du ændre antallet af administratorer og medarbejdere eller opsige abonnementet, så giv os skriftlig besked på [m@booqr.dk](mailto:m@booqr.dk). Ændringen gælder fra den følgende måned. Tilføjer du brugere i løbet af måneden, betaler du først for dem fra næste faktura. Beløb, der allerede er faktureret, refunderes ikke.
 
 ### Prisændringer
 
