@@ -28,7 +28,7 @@ Abonnementet betales forud. Fakturaen sendes den første hverdag i måneden, og 
 
 ### Ændringer og opsigelse
 
-Der er ingen binding. Vil du ændre antallet af administratorer og medarbejdere eller opsige abonnementet, skal du give os skriftlig besked på [m@booqr.dk](mailto:m@booqr.dk) inden den 14. i måneden. Ændringen gælder så fra den følgende måned. Beløb, der allerede er faktureret, refunderes ikke.
+Der er ingen binding. Vil du ændre antallet af administratorer og medarbejdere eller opsige abonnementet, så giv os skriftlig besked på [m@booqr.dk](mailto:m@booqr.dk). Ændringen gælder fra den følgende måned. Beløb, der allerede er faktureret, refunderes ikke.
 
 ### Prisændringer
 

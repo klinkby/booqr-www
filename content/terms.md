@@ -64,13 +64,15 @@ Du ejer de data, du lægger ind på platformen. booqr må opbevare og behandle d
 
 ### 2.6 Betaling
 
-Et betalt abonnement betales forud for hver abonnementsperiode efter den gældende [prisliste](/price/). Priser er eksklusive moms, medmindre andet er angivet. Prisændringer varsles mindst 30 dage før, de træder i kraft. Ved forsinket betaling påløber renter og gebyrer efter renteloven, og vi kan lukke for adgangen, indtil der er betalt.
+Et betalt abonnement betales forud for hver abonnementsperiode efter den gældende [prisliste](/price/). En abonnementsperiode er en kalendermåned. Vi fakturerer den første hverdag i måneden, og betalingsfristen er netto 8 dage. Priser er eksklusive moms, medmindre andet er angivet. Prisændringer varsles mindst 30 dage før, de træder i kraft. Ved forsinket betaling påløber renter og gebyrer efter renteloven, og vi kan lukke for adgangen, indtil der er betalt.
+
+Prisen afhænger af antallet af brugere med rollen administrator eller medarbejder. Ændringer i antallet skal meddeles os skriftligt, fx på e-mail til [m@booqr.dk](mailto:m@booqr.dk), og gælder fra den følgende abonnementsperiode.
 
 Forudbetalte beløb refunderes ikke. Opsiger vi aftalen, uden at du har misligholdt den, refunderer vi dog den forudbetalte del af perioden efter ophøret.
 
 ### 2.7 Opsigelse
 
-Du kan til enhver tid lukke din konto. Et betalt abonnement løber til udgangen af den betalte periode. Vi kan opsige aftalen med 30 dages varsel. Ved væsentlig misligholdelse, herunder overtrædelse af [reglerne for rimelig brug](#4-rimelig-brug-fair-use) eller manglende betaling, kan vi suspendere eller lukke kontoen uden varsel.
+Der er ingen binding. Du kan til enhver tid opsige et betalt abonnement skriftligt, fx på e-mail til [m@booqr.dk](mailto:m@booqr.dk). Opsigelsen har virkning ved udgangen af den igangværende abonnementsperiode. Lukker du din konto, gælder det som en opsigelse, og abonnementet skal betales til udgangen af perioden. Vi kan opsige aftalen med 30 dages varsel. Ved væsentlig misligholdelse, herunder overtrædelse af [reglerne for rimelig brug](#4-rimelig-brug-fair-use) eller manglende betaling, kan vi suspendere eller lukke kontoen uden varsel.
 
 Når kontoen er lukket, er bookingsiden ikke længere tilgængelig, og platformen sender ikke bekræftelser eller påmindelser. Du er selv ansvarlig for at underrette dine kunder og for de aftaler, du har indgået med dem. Dine data slettes som beskrevet i databehandleraftalen.
 
