@@ -25,7 +25,7 @@ Hugo **extended** 0.165+. Own templates under `layouts/` — no external theme.
   JavaScript**. Solve layout and interaction with HTML + CSS. If JS ever
   becomes unavoidable, keep it minimal, progressively enhanced, and write
   **ES2022** (no transpiler/bundler in this repo).
-- **No new abuse surface.** Zero third-party requests: system fonts, no CDN,
+- **No new abuse surface.** Zero third-party requests: self-hosted Nunito (`static/fonts/`, OFL), no CDN,
   no analytics, no external assets. `default-src 'self'`; the stylesheet is
   inlined and its SHA-256 pinned in `style-src`. Don't add network calls,
   trackers, or inline `<script>`.
@@ -39,7 +39,8 @@ Hugo **extended** 0.165+. Own templates under `layouts/` — no external theme.
 | --- | --- |
 | `content/_index.md` | Front page copy + front matter |
 | `content/problems/` | RFC 7807 error-type explanations (Danish) |
-| `layouts/` | Own templates (`404.html` is the GitHub Pages 404) |
+| `layouts/` | Own templates (`404.html` is the GitHub Pages 404); `partials/header.html` is the sticky site header + skip link, `partials/mailto.html` builds the invite mailto |
+| `static/fonts/` | Self-hosted Nunito Variable (latin) + `OFL.txt` |
 | `assets/css/main.css` | Design system, one file |
 | `static/favicon.svg` | Logo/favicon — copy of booqr-app `src/lib/assets/favicon.svg` |
 | `static/CNAME` | Custom domain for GitHub Pages |

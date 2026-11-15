@@ -1,7 +1,6 @@
 {{- define "main" }}
 {{- $p := .Params }}
-{{- $hp := site.Home.Params }}
-{{- $mailto := printf "mailto:%s?subject=%s" $hp.invite_email (replace ($hp.invite_subject | urlquery) "+" "%20") }}
+{{- $mailto := partial "mailto.html" . }}
 <section class="hero home" aria-labelledby="hero-title">
   <div class="shell">
     {{- with $p.badge }}

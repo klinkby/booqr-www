@@ -1,0 +1,2 @@
+{{- $hp := site.Home.Params -}}
+{{- return printf "mailto:%s?subject=%s" $hp.invite_email (replace ($hp.invite_subject | urlquery) "+" "%20") -}}
