@@ -1,7 +1,7 @@
 <ul class="cards">
   {{- range . }}
   <li>
-    <span class="icon" aria-hidden="true">{{ .icon }}</span>
+    <span class="icon">{{ partial "icon.html" .icon }}</span>
     <h3>{{ .title }}</h3>
     <p>{{ .text }}</p>
   </li>

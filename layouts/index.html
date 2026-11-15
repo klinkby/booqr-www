@@ -6,7 +6,7 @@
     {{- with $p.badge }}
     <p class="badge">{{ . }}</p>
     {{- end }}
-    <h1 id="hero-title">{{ $p.hero_title | default .Title }}</h1>
+    <h1 id="hero-title">{{ $p.hero_title | default .Title }}{{ with $p.hero_highlight }} <span class="highlight">{{ . }}</span>{{ end }}</h1>
     {{- with $p.hero_lead }}
     <p class="lead">{{ . }}</p>
     {{- end }}
@@ -34,7 +34,7 @@
 {{- end }}
 
 {{- with $p.trust }}
-<section class="band" aria-labelledby="trust-title">
+<section class="band trust" aria-labelledby="trust-title">
   <div class="shell wide">
     <h2 id="trust-title">Hurtig, moderne og sikker</h2>
     {{ partial "cards.html" . }}

@@ -39,7 +39,8 @@ Hugo **extended** 0.165+. Own templates under `layouts/` — no external theme.
 | --- | --- |
 | `content/_index.md` | Front page copy + front matter |
 | `content/problems/` | RFC 7807 error-type explanations (Danish) |
-| `layouts/` | Own templates (`404.html` is the GitHub Pages 404); `partials/header.html` is the sticky site header + skip link, `partials/mailto.html` builds the invite mailto |
+| `layouts/` | Own templates (`404.html` is the GitHub Pages 404); `partials/header.html` is the sticky site header + skip link, `partials/mailto.html` builds the invite mailto; `hero_highlight` front matter renders the gradient phrase of the h1 |
+| `layouts/partials/icon.html` + `assets/icons/` | Inline Heroicons (outline, MIT, `LICENSE` alongside); front-matter `icon:` is the file name without `.svg` |
 | `static/fonts/` | Self-hosted Nunito Variable (latin) + `OFL.txt` |
 | `assets/css/main.css` | Design system, one file |
 | `static/favicon.svg` | Logo/favicon — copy of booqr-app `src/lib/assets/favicon.svg` |
