@@ -6,6 +6,7 @@ hero_title: "Online booking til behandlere — enkelt, hurtigt og sikkert"
 hero_lead: "booqr giver din klinik en moderne bookingside, hvor klienterne selv finder en ledig tid døgnet rundt — og dig et roligt overblik over kalenderen."
 invite_email: "m@booqr.dk"
 invite_subject: "Invitation til booqr-betaen"
+price_note: "Introduktionspris: kr 99,-"
 audiences:
   - "Akupunktur"
   - "Zoneterapi"
