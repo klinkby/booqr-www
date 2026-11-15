@@ -1,0 +1,7 @@
+{{- /* Inline Heroicons (outline, 24px) — MIT, (c) Tailwind Labs; see assets/icons/LICENSE.
+       Colour comes from CSS (stroke="currentColor"). Usage: partial "icon.html" "calendar-days" */ -}}
+{{- with resources.Get (printf "icons/%s.svg" .) -}}
+  {{- replace .Content `aria-hidden="true" data-slot="icon"` `aria-hidden="true" focusable="false" width="24" height="24"` | safeHTML -}}
+{{- else -}}
+  {{- errorf "icon.html: unknown icon %q" . -}}
+{{- end -}}

@@ -25,6 +25,11 @@ enableRobotsTXT = true
   # Disallow), e.g. while a rebuild is under way.
   noindex = false
 
+[[menus.main]]
+  name = "Priser"
+  pageRef = "/price"
+  weight = 10
+
 [[menus.footer]]
   name = "Vilkår"
   pageRef = "/terms"
