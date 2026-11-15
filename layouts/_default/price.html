@@ -14,7 +14,7 @@
 
     <section class="plan" aria-labelledby="plan-title">
       <h2 id="plan-title">{{ $p.plan_title }}</h2>
-      {{- with $p.trial }}
+      {{- with $p.offer }}
       <p class="badge">{{ . }}</p>
       {{- end }}
       <p class="amount">{{ $p.price }}</p>
@@ -36,7 +36,7 @@
 
 <section class="band doc" aria-labelledby="info-title">
   <div class="shell">
-    <h2 id="info-title">Godt at vide</h2>
+    <h2 id="info-title">Det med småt</h2>
     <div class="prose">{{ .Content }}</div>
     <p class="back"><a href="{{ "/" | relLangURL }}">← Tilbage til forsiden</a></p>
   </div>
