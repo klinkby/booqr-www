@@ -42,3 +42,7 @@ enableRobotsTXT = true
   name = "Databehandleraftale"
   pageRef = "/data-processing"
   weight = 30
+[[menus.footer]]
+  name = "Driftstatus"
+  url = "https://stats.uptimerobot.com/icVHn7BsVj"
+  weight = 40
