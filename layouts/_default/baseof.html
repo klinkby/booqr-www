@@ -13,7 +13,7 @@
   <nav aria-label="Juridiske sider">
     <ul>
       {{- range . }}
-      <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "footer" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+      <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "footer" . }} aria-current="page"{{ end }}{{ if hasPrefix .URL "https://" }} target="_blank" rel="noopener noreferrer" aria-label="{{ .Name }} (åbner i nyt vindue)"{{ end }}>{{ .Name }}</a></li>
       {{- end }}
     </ul>
   </nav>

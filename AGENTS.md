@@ -31,6 +31,10 @@ Hugo **extended** 0.165+. Own templates under `layouts/` — no external theme.
   trackers, or inline `<script>`.
 - **Plain CSS only** in `assets/css/main.css` (one file, inlined at build) —
   no SCSS/Sass. Keep it lean; delete dead rules rather than leaving them.
+- **External links open in a new tab** (`target="_blank"` with
+  `rel="noopener noreferrer"`) and say so in the accessible name, e.g.
+  "(åbner i nyt vindue)". The footer menu does this automatically for
+  `https://` URLs.
 - Markdown `unsafe = false` — raw HTML in content is off; use templates.
 
 ## Layout
