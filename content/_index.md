@@ -42,7 +42,7 @@ trust:
   - icon: "bolt"
     title: "Hurtig og moderne"
     text: "En let app, der åbner på et øjeblik — på mobilen, tablet og computer."
-  - icon: "lock-closed"
+  - icon: "shield-check"
     title: "Sikker"
     text: "Data er krypteret, både når de sendes, og når de opbevares. Ingen reklamer og ingen sporing."
   - icon: "globe-europe-africa"
