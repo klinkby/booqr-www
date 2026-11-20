@@ -1,7 +1,6 @@
 ---
 title: "booqr"
 description: "Online booking til akupunktører, zoneterapeuter, massører og andre behandlere. Hurtig, moderne og sikker — med servere i Norden. Nu i lukket beta."
-badge: "Beta · kun på invitation"
 hero_title: "Online booking til behandlere —"
 hero_highlight: "enkelt, hurtigt og sikkert"
 hero_lead: "booqr giver din klinik en moderne bookingside, hvor klienterne selv finder en ledig tid døgnet rundt — og dig et roligt overblik over kalenderen."
