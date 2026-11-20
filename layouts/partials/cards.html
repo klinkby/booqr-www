@@ -3,7 +3,7 @@
   <li>
     <span class="icon">{{ partial "icon.html" .icon }}</span>
     <h3>{{ .title }}</h3>
-    <p>{{ .text }}</p>
+    <p>{{ .text | markdownify }}</p>
   </li>
   {{- end }}
 </ul>
