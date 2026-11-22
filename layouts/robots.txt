@@ -63,7 +63,12 @@ Disallow: /
 
 # Russian search engines
 User-agent: Mail.Ru
+User-agent: MegaIndex.ru
 User-agent: Yandex
+Disallow: /
+
+# Iranian search engines
+User-agent: yoozBot
 Disallow: /
 
 # Everyone
