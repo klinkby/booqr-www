@@ -4,9 +4,9 @@ defaultContentLanguage = "da"
 title = "booqr"
 
 # We author every template ourselves under layouts/ — no external theme.
-# No RSS/taxonomies are part of this one-page site, so they are switched off
+# No RSS/taxonomies are part of this site, so they are switched off
 # to keep the build output lean and warning-free.
-disableKinds = ["RSS", "taxonomy", "term", "sitemap"]
+disableKinds = ["RSS", "taxonomy", "term"]
 enableRobotsTXT = true
 
 [markup]
